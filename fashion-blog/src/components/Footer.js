@@ -6,7 +6,7 @@ const Footer = ({ links }) => (
             <ul>
                 {links.map((link, index) => (
                     <li key={index}>
-                        <a href={link.url}>{link.text}></a>
+                        <a href={link.url}>{link.text}</a>
                     </li>
                 ))}
             </ul>
